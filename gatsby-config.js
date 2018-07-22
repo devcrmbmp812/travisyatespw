@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Nick Lin Full Stack Developer (The best way to predict the future is to create it)',
-    author: 'Nick Lin',
-    description: 'Nick Lin Personal Website.',
+    title: 'Travis Yates Full Stack Developer (The best way to predict the future is to create it)',
+    author: 'Travis Yates',
+    description: 'Travis Yates Personal Website.',
     siteUrl: 'https://nicklin.netlify.com/',
   },
   plugins: [

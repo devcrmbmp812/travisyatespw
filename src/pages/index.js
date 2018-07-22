@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
       <section>
         <SEO
           title={siteTitle}
-          description="Full Stack Developer Nick Lin"
+          description="Full Stack Developer Travis Yates"
           image={Natalia}
           url={siteURL}
           isPost={false}
@@ -45,7 +45,7 @@ class BlogIndex extends React.Component {
                 alt="Natalia foto"
                 className="header-img"
               />
-              <h1 className="header-title">Nick Lin</h1>
+              <h1 className="header-title">Travis Yates</h1>
               <h2 className="header-subtitle">Full Stack Developer</h2>
 
               <div>
