@@ -47,36 +47,7 @@ class BlogIndex extends React.Component {
               />
               <h1 className="header-title">Travis Yates</h1>
               <h2 className="header-subtitle">Full Stack Developer</h2>
-
-              <div>
-                <a
-                  className="no-link"
-                  href="https://www.facebook.com/nick.lin.77736310 "
-                  target="_blank"
-                  aria-label="url fanpage"
-                  rel="noopener"
-                >
-                  <i className="icon-facebook" />
-                </a>
-                <a
-                  target="_blank"
-                  className="no-link"
-                  href="https://api.whatsapp.com/send?phone=8618424538304"
-                  aria-label="url whatsapp"
-                  rel="noopener"
-                >
-                  <i className="icon-whatsapp" />
-                </a>
-                <a
-                  target="_blank"
-                  className="no-link"
-                  href="https://meetings.hubspot.com/nicklin1993812?_ga=2.104903811.1813621242.1528861574-547103212.1528861574"
-                  aria-label="url agendar cita"
-                  rel="noopener"
-                >
-                  <i className="icon-mail" />
-                </a>
-              </div>
+              
             </div>
           </div>
         </header>
