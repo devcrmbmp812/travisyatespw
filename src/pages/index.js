@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 import { rhythm } from '../utils/typography'
 
 import BackgroundImage from '../assets/background.jpg'
-import Natalia from '../assets/widad.jpg'
+import Natalia from '../assets/widad.png'
 
 import '../css/index.scss'
 
@@ -97,7 +97,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    natalia: file(relativePath: { regex: "/widad.jpg/" }) {
+    natalia: file(relativePath: { regex: "/widad.png/" }) {
       childImageSharp {
         resolutions(width: 250, height: 250, quality: 90) {
           ...GatsbyImageSharpResolutions_withWebp
