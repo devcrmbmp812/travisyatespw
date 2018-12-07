@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 import { rhythm } from '../utils/typography'
 
 import BackgroundImage from '../assets/background.jpg'
-import Natalia from '../assets/travis.png'
+import Natalia from '../assets/widad.jpg'
 
 import '../css/index.scss'
 
@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
       <section>
         <SEO
           title={siteTitle}
-          description="Full Stack Developer Travis Yates"
+          description="Full Stack Developer"
           image={Natalia}
           url={siteURL}
           isPost={false}
@@ -45,7 +45,7 @@ class BlogIndex extends React.Component {
                 alt="Natalia foto"
                 className="header-img"
               />
-              <h1 className="header-title">Travis Yates</h1>
+              <h1 className="header-title">Widad Saghir</h1>
               <h2 className="header-subtitle">Full Stack Developer</h2>
               
             </div>
@@ -97,7 +97,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    natalia: file(relativePath: { regex: "/travis.png/" }) {
+    natalia: file(relativePath: { regex: "/widad.jpg/" }) {
       childImageSharp {
         resolutions(width: 250, height: 250, quality: 90) {
           ...GatsbyImageSharpResolutions_withWebp
